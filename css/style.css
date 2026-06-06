@@ -1,0 +1,45 @@
+body{
+    margin:0;
+    background:#111;
+    color:white;
+    font-family:Arial;
+    text-align:center;
+}
+
+#gameContainer{
+    display:none;
+}
+
+#gameOver{
+    display:none;
+}
+
+canvas{
+    border:3px solid white;
+    background:black;
+    margin-top:10px;
+}
+
+button{
+    padding:10px 20px;
+    margin:5px;
+    cursor:pointer;
+}
+
+.top-bar{
+    width:600px;
+    margin:auto;
+
+    display:flex;
+    justify-content:space-between;
+}
+
+.mobile-controls{
+    margin-top:10px;
+}
+
+.mobile-controls button{
+    width:70px;
+    height:70px;
+    font-size:24px;
+}
